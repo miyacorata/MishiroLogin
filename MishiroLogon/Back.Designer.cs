@@ -37,7 +37,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::MishiroLogon.Properties.Resources.Pegasus;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(784, 411);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.DoubleBuffered = true;
             this.Enabled = false;
             this.MaximizeBox = false;

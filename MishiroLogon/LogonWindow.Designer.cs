@@ -28,24 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LogonPic = new System.Windows.Forms.PictureBox();
             this.UserLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.UserTextbox = new System.Windows.Forms.TextBox();
             this.PasswordTextbox = new System.Windows.Forms.TextBox();
             this.CancButton = new System.Windows.Forms.Button();
             this.LogonButton = new System.Windows.Forms.Button();
+            this.LogonPic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.LogonPic)).BeginInit();
             this.SuspendLayout();
-            // 
-            // LogonPic
-            // 
-            this.LogonPic.Image = global::MishiroLogon.Properties.Resources._346logon;
-            this.LogonPic.Location = new System.Drawing.Point(0, 0);
-            this.LogonPic.Name = "LogonPic";
-            this.LogonPic.Size = new System.Drawing.Size(640, 150);
-            this.LogonPic.TabIndex = 0;
-            this.LogonPic.TabStop = false;
             // 
             // UserLabel
             // 
@@ -83,7 +74,7 @@
             // CancButton
             // 
             this.CancButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.CancButton.Location = new System.Drawing.Point(512, 253);
+            this.CancButton.Location = new System.Drawing.Point(528, 253);
             this.CancButton.Name = "CancButton";
             this.CancButton.Size = new System.Drawing.Size(100, 26);
             this.CancButton.TabIndex = 5;
@@ -93,7 +84,8 @@
             // 
             // LogonButton
             // 
-            this.LogonButton.Location = new System.Drawing.Point(406, 253);
+            this.LogonButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.LogonButton.Location = new System.Drawing.Point(422, 253);
             this.LogonButton.Name = "LogonButton";
             this.LogonButton.Size = new System.Drawing.Size(100, 26);
             this.LogonButton.TabIndex = 6;
@@ -101,13 +93,22 @@
             this.LogonButton.UseVisualStyleBackColor = true;
             this.LogonButton.Click += new System.EventHandler(this.LogonButton_Click);
             // 
+            // LogonPic
+            // 
+            this.LogonPic.Image = global::MishiroLogon.Properties.Resources._346logon;
+            this.LogonPic.Location = new System.Drawing.Point(0, 0);
+            this.LogonPic.Name = "LogonPic";
+            this.LogonPic.Size = new System.Drawing.Size(640, 150);
+            this.LogonPic.TabIndex = 0;
+            this.LogonPic.TabStop = false;
+            // 
             // Logon
             // 
             this.AcceptButton = this.LogonButton;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.CancelButton = this.CancButton;
-            this.ClientSize = new System.Drawing.Size(624, 291);
+            this.ClientSize = new System.Drawing.Size(640, 291);
             this.ControlBox = false;
             this.Controls.Add(this.LogonButton);
             this.Controls.Add(this.CancButton);
