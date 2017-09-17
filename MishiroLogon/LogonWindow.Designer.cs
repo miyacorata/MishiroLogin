@@ -125,7 +125,7 @@
             this.Name = "Logon";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Log On";
+            this.Text = "ログオン";
             ((System.ComponentModel.ISupportInitialize)(this.LogonPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
