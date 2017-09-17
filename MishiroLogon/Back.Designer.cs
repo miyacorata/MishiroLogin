@@ -37,7 +37,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::MishiroLogon.Properties.Resources.Pegasus;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(1184, 611);
             this.DoubleBuffered = true;
             this.Enabled = false;
             this.MaximizeBox = false;
@@ -48,6 +48,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logon";
+            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Back_Load);
             this.ResumeLayout(false);

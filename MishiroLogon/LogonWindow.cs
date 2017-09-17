@@ -43,6 +43,7 @@ namespace MishiroLogon
             {
                 MessageBox.Show("ユーザー名かパスワードが不正です。", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 PasswordTextbox.Text = string.Empty;
+                this.DialogResult = System.Windows.Forms.DialogResult.None;
             }
             else
             {
@@ -52,7 +53,7 @@ namespace MishiroLogon
 
         private void CancButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ログインが必要です。", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("ログインが必要です。", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             this.DialogResult = System.Windows.Forms.DialogResult.None;
         }
     }
